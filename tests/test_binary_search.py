@@ -39,7 +39,8 @@ class TestBinarySearch:
             raise ValueError("Should not find non-existent element 6")
 
     def test_binary_search_not_exists_out_of_range_low(
-        self, solution: Solution
+        self,
+        solution: Solution,
     ) -> None:
         haystack = [1, 3, 5, 7, 9, 11, 13]
         result = solution.binary_search(haystack, 0)
@@ -47,7 +48,8 @@ class TestBinarySearch:
             raise ValueError("Should not find element below range 0")
 
     def test_binary_search_not_exists_out_of_range_high(
-        self, solution: Solution
+        self,
+        solution: Solution,
     ) -> None:
         haystack = [1, 3, 5, 7, 9, 11, 13]
         result = solution.binary_search(haystack, 15)
@@ -71,7 +73,7 @@ class TestBinarySearch:
         result = solution.binary_search(haystack, 99)
         if result:
             raise ValueError(
-                "Should not find non-existent element in single element array"
+                "Should not find non-existent element in single element array",
             )
 
     def test_binary_search_even_length_exists(self, solution: Solution) -> None:
@@ -85,7 +87,7 @@ class TestBinarySearch:
         result = solution.binary_search(haystack, 7)
         if result:
             raise ValueError(
-                "Should not find non-existent element in even-length array"
+                "Should not find non-existent element in even-length array",
             )
 
     def test_binary_search_odd_length_exists(self, solution: Solution) -> None:
@@ -99,7 +101,7 @@ class TestBinarySearch:
         result = solution.binary_search(haystack, 2)
         if not result:
             raise ValueError(
-                "Should find duplicate value (though which duplicate is implementation-dependent)"
+                "Should find duplicate value (though which duplicate is implementation-dependent)",
             )
 
     def test_binary_search_negative_numbers(self, solution: Solution) -> None:
