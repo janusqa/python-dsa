@@ -14,5 +14,5 @@ class Solution(BaseModel):
         return output
 
 
-if __name__ == "__main__":
-    print(Solution().mergeAlternately("abc", "pqr"))
+# if __name__ == "__main__":
+#     print(Solution().mergeAlternately("abc", "pqr"))
