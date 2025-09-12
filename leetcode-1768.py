@@ -2,7 +2,7 @@ from pydantic import BaseModel
 
 
 class Solution(BaseModel):
-    def mergeAlternately(self, word1: str, word2: str) -> str:
+    def merge_alternately(self, word1: str, word2: str) -> str:
         output: str = ""
 
         for i in range(max(len(word1), len(word2))):
