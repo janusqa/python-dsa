@@ -1,7 +1,4 @@
-from pydantic import BaseModel
-
-
-class Solution(BaseModel):
+class Solution:
     def bubble_sort(self, arr: list[int]) -> None:
         n = len(arr) - 1
 

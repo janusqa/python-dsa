@@ -1,7 +1,4 @@
-from pydantic import BaseModel
-
-
-class Solution(BaseModel):
+class Solution:
     def merge_alternately(self, word1: str, word2: str) -> str:
         output: str = ""
 
