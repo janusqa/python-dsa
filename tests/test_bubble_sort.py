@@ -72,8 +72,8 @@ class TestBubbleSort:
             )
 
     def test_bubble_sort_empty_list(self, solution: Solution) -> None:
-        arr = []
-        expected = []
+        arr: list[int] = []
+        expected: list[int] = []
         solution.bubble_sort(arr)
         if arr != expected:
             raise ValueError(
