@@ -1,12 +1,6 @@
-import sys
-from pathlib import Path
-
 import pytest
 
-# Add project root to Python path
-sys.path.insert(0, str(Path(__file__).parent.parent.resolve()))
-
-from src.binary_search import Solution
+from binary_search import Solution
 
 
 class TestBinarySearch:

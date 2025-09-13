@@ -1,12 +1,6 @@
-import sys
-from pathlib import Path
-
 import pytest
 
-# Add project root to Python path
-sys.path.insert(0, str(Path(__file__).parent.parent.resolve()))
-
-from src.quick_sort import Solution  # Assuming your class is in myapp.py
+from quick_sort import Solution  # Assuming your class is in myapp.py
 
 
 class TestBubbleSort:

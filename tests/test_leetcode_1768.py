@@ -1,12 +1,6 @@
-import sys
-from pathlib import Path
-
 import pytest
 
-# Add the parent directory to Python path so we can import myapp
-sys.path.insert(0, str(Path(__file__).parent.parent.resolve()))
-
-from src.leetcode_1786 import Solution
+from leetcode_1786 import Solution
 
 
 class TestLeetcode1786:

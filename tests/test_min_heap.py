@@ -1,4 +1,4 @@
-from src.min_heap import Solution  # Replace with your actual module name
+from min_heap import Solution  # Replace with your actual module name
 
 
 class TestMinHeap:
