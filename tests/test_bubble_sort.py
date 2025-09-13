@@ -6,7 +6,7 @@ import pytest
 # Add project root to Python path
 sys.path.insert(0, str(Path(__file__).parent.parent.resolve()))
 
-from bubble_sort import Solution  # Assuming your class is in myapp.py
+from src.bubble_sort import Solution  # Assuming your class is in myapp.py
 
 
 class TestBubbleSort:
