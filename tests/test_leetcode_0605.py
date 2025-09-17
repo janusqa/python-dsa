@@ -1,6 +1,6 @@
 import pytest
 
-from leetcode_605 import Solution
+from leetcode_0605 import Solution
 
 
 class TestCanPlaceFlowers:
