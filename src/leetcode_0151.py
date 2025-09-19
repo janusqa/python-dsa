@@ -44,7 +44,7 @@ class SolutionSolutionIterativeWithNoExtraBuffer:
         s_list = list(s)
         result: list[str] = []
 
-        # teim entire list
+        # trim entire list
         s_list_len = self.trim_spaces(s_list)
 
         # reverse entire list
