@@ -9,7 +9,7 @@ class Solution:
             elif nums[i] <= high:
                 high = nums[i]
 
-            if nums[i] > low and nums[i] > high:
+            if nums[i] > high:
                 return True
 
         return False
