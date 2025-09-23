@@ -8,8 +8,7 @@ class Solution:
                 low = nums[i]
             elif nums[i] <= high:
                 high = nums[i]
-
-            if nums[i] > high:
+            else:
                 return True
 
         return False
