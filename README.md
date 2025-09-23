@@ -30,6 +30,6 @@
         def my_test_1(self, solution: Solution) -> None
           solution.function_under_test()
       ```
-    11. Import the Solution class from my_class_module as specified.
+    11. Import the Solution class from "my_class_module" as specified.
 
 
