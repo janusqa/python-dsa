@@ -41,7 +41,7 @@ class TestContainerWithMostWater:
 
     def test_maximum_length_array_within_constraints(self, solution: Solution) -> None:
         """Test with array length at the upper constraint limit."""
-        height = [i for i in range(10**5)]
+        height = list(range(10**5))
         result = solution.function_under_test(height)
 
         # Instead of exact calculation, verify it's a large positive number
