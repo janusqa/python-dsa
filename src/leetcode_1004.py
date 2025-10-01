@@ -37,12 +37,3 @@ class Solution:
 
     def function_under_test(self, nums: list[int], k: int) -> int:
         return self.longest_ones(nums, k)
-
-
-if __name__ == "__main__":
-    print(
-        Solution().longest_ones(
-            [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1],
-            3,
-        ),
-    )
