@@ -1,5 +1,5 @@
 class Solution:
-    def largesta_altitude(self, gain: list[int]) -> int:
+    def largest_altitude(self, gain: list[int]) -> int:
         if len(gain) < 1:
             return 0
 
@@ -17,8 +17,8 @@ class Solution:
         return hightest_altitude
 
     def function_under_test(self, gain: list[int]) -> int:
-        return self.largesta_altitude(gain)
+        return self.largest_altitude(gain)
 
 
 if __name__ == "__main__":
-    print(Solution().largesta_altitude([5, -3, 4, -2, 3, -1]))
+    print(Solution().largest_altitude([5, -3, 4, -2, 3, -1]))
